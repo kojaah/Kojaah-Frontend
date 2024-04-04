@@ -22,13 +22,15 @@ This is the frontend repository for Kojaah that will contain all the frontend ap
 npm run start -w=koojah-main
 ```
 
-If the `-w` flag is not specified, it will run the from the root package.json file in the workspace. 4. To install a library for a specific workspace please specific the `-w` flag and the workspace name
+If the `-w` flag is not specified, it will run the from the root package.json file in the workspace.
+
+4. To install a library for a specific workspace please specific the `-w` flag and the workspace name
 
 ```bash
 npm install [package-name] -w=koojah-main
 ```
 
-The package actually uses turborepo for easier development, build, testing, and linting pipelines. You can look through the package.json scripts for a list of possible commands. 4. After, any of the commands below can be ran.
+5. The package actually uses turborepo for easier development, build, testing, and linting pipelines. You can look through the package.json scripts for a list of possible commands. Therefore after installation of all packages, any of the commands below can be ran.
 
 ## REQUIREMENTS
 
