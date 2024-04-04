@@ -58,9 +58,7 @@ This Turborepo includes the following packages/apps:
 - `@kojaah/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@kojaah/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Note about building libs/ui (for help with making more UI component libraries)
+### Note about building libs/ui (for help with creating more UI component libraries)
 
 This example is set up to produce compiled styles for `ui` components into the `dist` directory. The component `.tsx` files are consumed by the Next.js apps directly using `transpilePackages` in `next.config.js`. This was chosen for several reasons:
 
