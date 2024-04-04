@@ -1,0 +1,5 @@
+{
+  "extends": "@kojaah/typescript-config/react-library.json",
+  "include": ["../../libs/ui./../libs/ui./../libs/ui./../libs/ui"],
+  "exclude": ["../../libs/ui/dist./li../../libs/ui/build/dis../../libs/ui/node_modulesibs/ui/build/dis../../libs/ui/node_modulesibs/ui/build/dis../../libs/ui/node_modulesibs/ui/build", "../../libs/ui/node_modules"]
+}
