@@ -37,6 +37,13 @@ module.exports = {
   // add rules configurations here
   rules: {
     "import/no-default-export": "off",
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        allowFunctionsWithoutTypeParameters: true,
+      },
+    ],
   },
   overrides: [
     {

@@ -6,7 +6,7 @@
     ".": "./tailwind.config.ts"
   },
   "devDependencies": {
-    "@repo/typescript-config": "*",
+    "@kojaah/typescript-config": "*",
     "tailwindcss": "^3.4.1",
     "@kojaah/eslint-config": "*"
   }

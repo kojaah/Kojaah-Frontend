@@ -1,4 +1,3 @@
-import React from "react";
 import { type ReactNode } from "react";
 
 function cn(...classes: (string | undefined)[]): string {

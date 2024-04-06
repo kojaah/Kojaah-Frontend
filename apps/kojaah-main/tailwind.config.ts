@@ -1,7 +1,7 @@
 // tailwind config is required for editor support
 
 import type { Config } from "tailwindcss";
-import sharedConfig from "@kojaah/tailwind-config";
+import sharedConfig from "../../libs/config-tailwind/tailwind.config";
 
 const config: Pick<Config, "content" | "presets"> = {
   content: ["./src/app/**/*.tsx"],
